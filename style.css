@@ -310,8 +310,22 @@ header {
     margin: 0.5rem 0 1rem;
     align-items: center;
 }
+.openingtime {
+    margin-left: 40%;
+    max-width: 900;
+    margin-bottom: auto;
+}
+.openingtime h2 {
+    color: black;
+}
 
-
+.openingtime p {
+    color: brown;
+    font-weight: bold;
+}
+.row {
+    display: flex;
+}
 .content-right {
      flex-basis: 50%;
 }
@@ -353,7 +367,11 @@ header {
     font-size: 15px;
 }
 
+.content-right{
+    padding-right: 0%;
+    margin-right: 15%;
 
+}
 
 .content-right form {
     width: 100%;
